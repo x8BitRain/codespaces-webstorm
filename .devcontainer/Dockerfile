@@ -1,6 +1,6 @@
 # This defaults to Intellij Community Edition, but you should be able to use any JetBrains IDE they publish an image for.
 # https://github.com/JetBrains/projector-docker#run-jetbrains-ide-in-docker
-FROM registry.jetbrains.team/p/prj/containers/projector-idea-c
+FROM registry.jetbrains.team/p/prj/containers/projector-webstorm
 
 # The JetBrains images add a non-root user, which is probably a good thing, but doesn't provide a path to install further software, which we need to do.
 # Also, Codespaces generally default to running as `root` so this might align better with how they function.
